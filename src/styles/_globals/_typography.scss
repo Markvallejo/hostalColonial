@@ -1,0 +1,31 @@
+@mixin getFontFace($family, $style, $weight, $urlWithoutExtension) {
+  @font-face {
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    font-display: swap;
+    src: url($urlWithoutExtension + ".eot");
+    src: url($urlWithoutExtension + ".eot?#iefix") format("embedded-opentype"), url($urlWithoutExtension + ".woff2") format("woff2"), url($urlWithoutExtension + ".woff") format("woff"), url($urlWithoutExtension + ".ttf") format("truetype");
+  }
+}
+
+// Font path
+$FONTS_DIR: "/assets/fonts";
+
+// Open sans
+@include getFontFace("Open Sans", normal, 400, $FONTS_DIR + "/openSans/openSans-regular");
+@include getFontFace("Open Sans", normal, 700, $FONTS_DIR + "/openSans/openSans-bold");
+
+// Avenir Next
+@include getFontFace("Avenir Next", normal, 400, $FONTS_DIR + "/AvenirNext/AvenirNext-Regular");
+@include getFontFace("Avenir Next", normal, 700, $FONTS_DIR + "/AvenirNext/AvenirNext-Bold");
+@include getFontFace("Avenir Next", normal, 600, $FONTS_DIR + "/AvenirNext/AvenirNext-DemiBold");
+
+// Trade Gothic
+@include getFontFace("Trade Gothic", normal, 700, $FONTS_DIR + "/TradeGothic/TradeGothic-Bold");
+
+// Heaters
+@include getFontFace("Heaters", normal, 400, $FONTS_DIR + "/Heaters/Heaters");
+
+// Draft Natural A
+@include getFontFace("Draft Natural", normal, 500, $FONTS_DIR + "/DraftNaturalA/DraftNaturalA-Medium");
