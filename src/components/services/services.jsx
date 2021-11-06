@@ -47,12 +47,12 @@ const Services = () =>{
     ]
     return(
         <>
-        <a name="contacto" />
+        <a name="contacto" href="" />
          <ContainerReserva>
                 <p className="description_reserva"> Para reservar cualquiera de nuestros servicios, puedes llamar al numero: </p>
                 <div className="container_phone">
                     <img src={phone} alt="icon" />
-                    <p className="phone_number" > <a href={`tel:+505 2722 2040`}  target="_blank"> +505 2722 2040 </a></p>
+                    <p className="phone_number" > <a href={`tel:+505 2722 2040`}  target="_blank" rel="noreferrer"> +505 2722 2040 </a></p>
                 </div>
             </ContainerReserva>
         <ServiceContainer>

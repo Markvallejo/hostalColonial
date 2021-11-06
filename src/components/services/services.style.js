@@ -38,6 +38,10 @@ export const ContainerReserva = styled.div`
          padding-top: 200px;
         }
 
+        @media ${device.lg}{
+         padding-top: 280px;
+        }
+
         .description_reserva{
             padding-bottom: 30px;
             width: 90%;

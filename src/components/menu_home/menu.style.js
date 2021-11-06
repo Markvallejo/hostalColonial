@@ -19,6 +19,7 @@ export const MenuContainer = styled.div`
     }
     @media ${device.lg}{
         height: 100px;
+        top: 100px;
     }
 
 

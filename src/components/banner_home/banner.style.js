@@ -16,6 +16,9 @@ export const StyledBannerContainer = styled.div`
         @media ${device.sm}{
             top: 160px;
         }
+        @media ${device.lg}{
+            top: 200px;
+        }
 
         img{
             width: 100%;

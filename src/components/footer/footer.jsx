@@ -10,16 +10,16 @@ import instagram from "../../../static/assets/images/instagram.png"
 const Footer = () => {
     return(
         <FooterContainer >
-          <a name="footer" />
+          <a name="footer" href="" />
           <p className="visitanos_text">Visitanos en Nuestras Redes Sociales</p>
           <div className="social_media--container">
-            <a href="https://es-la.facebook.com/pg/reservacionescolonial/services/" target="_blank">
+            <a href="https://es-la.facebook.com/pg/reservacionescolonial/services/" target="_blank" rel="noreferrer">
                 <img src={facebook} alt="facebook" />
             </a>
-            <a href="https://es-la.facebook.com/pg/reservacionescolonial/services/" target="_blank">
+            <a href="https://es-la.facebook.com/pg/reservacionescolonial/services/" target="_blank" rel="noreferrer">
                 <img src={twitter} alt="twitter" />
             </a>
-            <a href="https://es-la.facebook.com/pg/reservacionescolonial/services/" target="_blank">
+            <a href="https://es-la.facebook.com/pg/reservacionescolonial/services/" target="_blank" rel="noreferrer">
                 <img src={instagram} alt="instagram" />
             </a>
           </div>
