@@ -47,6 +47,7 @@ const Services = () =>{
     ]
     return(
         <>
+        <a name="contacto" />
          <ContainerReserva>
                 <p className="description_reserva"> Para reservar cualquiera de nuestros servicios, puedes llamar al numero: </p>
                 <div className="container_phone">

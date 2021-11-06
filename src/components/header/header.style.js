@@ -7,7 +7,8 @@ export const HeaderContainer = styled.div`
    background-color: black;
   // background: linear-gradient(to bottom, #07abf3, #8fdefe);
   /* border: solid blue 1px; */
-   position: relative;
+   position: fixed;
+   z-index: 1000;
    display: flex;
    justify-content: space-between;
    align-items: center;

@@ -3,15 +3,17 @@ import { device } from "../../theme/mediaQueries"
 
 export const CardContainer = styled.div`
     width: 80%;
-    height: 300px;
-    border: solid gray 2px;
-    margin-bottom: 20px;
+    height: 320px;
+    border: solid gray 1px;
+    margin-bottom: 40px;
     text-align: center;
-    border-radius: 5px;
-
+    -webkit-box-shadow: 0px 0px 17px 8px rgba(184,178,184,1);
+    -moz-box-shadow: 0px 0px 17px 8px rgba(184,178,184,1);
+    box-shadow: 0px 0px 17px 8px rgba(184,178,184,1);
+    cursor: pointer;
     @media ${device.sm}{
         width: 300px;
-        margin: 0 20px 20px 20px;
+        margin: 0 20px 50px 20px;
     }
 
     @media ${device.lg}{
@@ -19,7 +21,7 @@ export const CardContainer = styled.div`
     }
 
     &:hover{
-        background-color: #6f6f8c;
+        background-color: #ffa500;
     }
 
 
@@ -45,6 +47,7 @@ export const CardContainer = styled.div`
         height: 202px;
         margin-top: 15px;
         border-radius: 5px;
+        padding-bottom: 15px;
     }
 
 `

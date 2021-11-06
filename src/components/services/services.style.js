@@ -8,10 +8,12 @@ export const ServiceContainer = styled.div`
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+    margin-bottom: 30px;
 
     @media ${device.sm}{
         flex-direction: row;
         flex-wrap: wrap;
+        margin-bottom: 50px;
     }
 
 `
@@ -22,16 +24,18 @@ export const ContainerReserva = styled.div`
         padding: 0 20px;
         font-weight: ${props => props.theme.vars.fontBold};
         color: #0b0b4c;
-        margin: 30px 0;
+        margin-top: 150px;
+        margin-bottom: 30px;
 
         @media ${device.sm}{
             margin-bottom: 50px;
+            margin-top: 200px;
         }
 
         @media ${device.md}{
           width: 600px;
-          margin: 30px auto;
-         
+          margin: 0px auto;
+         padding-top: 200px;
         }
 
         .description_reserva{

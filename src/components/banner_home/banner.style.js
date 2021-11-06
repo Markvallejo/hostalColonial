@@ -11,6 +11,11 @@ export const StyledBannerContainer = styled.div`
     .banner__home{
         width: 100%;
         position: relative;
+        top: 120px;
+        
+        @media ${device.sm}{
+            top: 160px;
+        }
 
         img{
             width: 100%;

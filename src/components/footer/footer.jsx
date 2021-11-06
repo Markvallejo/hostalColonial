@@ -9,7 +9,8 @@ import instagram from "../../../static/assets/images/instagram.png"
 
 const Footer = () => {
     return(
-        <FooterContainer>
+        <FooterContainer >
+          <a name="footer" />
           <p className="visitanos_text">Visitanos en Nuestras Redes Sociales</p>
           <div className="social_media--container">
             <a href="https://es-la.facebook.com/pg/reservacionescolonial/services/" target="_blank">
